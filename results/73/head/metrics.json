@@ -1,0 +1,22 @@
+{
+  "mode": "head",
+  "seed": 73,
+  "accuracy": 0.6813725490196079,
+  "f1": 0.8104956268221575,
+  "epochs": 3,
+  "steps": 1377,
+  "train_examples": 3668,
+  "validation_examples": 408,
+  "lr": 0.001,
+  "batch": 8,
+  "losses": [
+    0.6623746156692505,
+    0.6507213711738586,
+    0.6270407438278198
+  ],
+  "seconds": 21.845466300001135,
+  "peak_allocated_MiB": 479.90771484375,
+  "trainable": 1538,
+  "total": 109483778,
+  "initial_head_sha256": "5b4c8791a20a78d4eb57f585e09c31033643fd14b9b001426383b27bb1a08fe6"
+}

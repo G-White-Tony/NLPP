@@ -10,22 +10,26 @@
 
 ## 本组验证结果
 
-已完成种子 17。每次用 3,668 条训练样本训练三轮，在相同的 408 条验证样本上评价。分数为百分数。下表为首个种子的阶段结果。
+已完成种子 17、42、73。每次用 3,668 条训练样本训练三轮，在相同的 408 条验证样本上评价。分数为百分数。误差项为三个种子的样本标准差。
 
 | 方法 | F1 | Accuracy | 可训练参数 | 峰值显存 MiB¹ | 训练秒数¹ |
 |---|---:|---:|---:|---:|---:|
-| 完整微调 | 90.69 | 87.01 | 109,483,778 | 2155.2 | 108.5 |
-| 仅分类头 | 81.05 | 68.14 | 1,538 | 479.9 | 21.7 |
-| BitFit | 88.81 | 84.07 | 104,450 | 1013.7 | 48.1 |
-| 仅 query bias + 分类头 | 81.17 | 70.10 | 10,754 | 999.6 | 39.8 |
+| 完整微调 | 90.87 ± 0.68 | 87.09 ± 0.86 | 109,483,778 | 2155.3 | 109.1 |
+| 仅分类头 | 81.05 ± 0.00 | 68.14 ± 0.00 | 1,538 | 479.9 | 21.9 |
+| BitFit | 88.80 ± 1.17 | 83.91 ± 1.97 | 104,450 | 1013.7 | 48.3 |
+| 仅 query bias + 分类头 | 81.03 ± 0.15 | 69.85 ± 0.25 | 10,754 | 999.6 | 39.8 |
 
 ¹ 为已完成种子的均值。耗时仅含训练；峰值取 PyTorch allocated。逐次损失、耗时和显存保存在各组的 metrics.json。
 
+在这组设置下，BitFit 的平均 F1 比完整微调低 2.07 分，比仅分类头高 7.75 分。只开放 query bias 使 F1 比 BitFit 低 7.77 分，峰值显存却只减少约 14 MiB。可训练参数的减少没有带来同比例的显存节省。这些结果限于本次固定训练预算和 MRPC 验证集。
+ 
 ### 逐条预测与审计
 
 | 种子 | 完整微调 | 仅分类头 | BitFit | 仅 query bias + 分类头 |
 |---|---|---|---|---|
 | 17 | [预测](../results/17/full/predictions.jsonl) · [梯度与差值](../results/17/full/audit.json) | [预测](../results/17/head/predictions.jsonl) · [梯度与差值](../results/17/head/audit.json) | [预测](../results/17/bitfit/predictions.jsonl) · [梯度与差值](../results/17/bitfit/audit.json) | [预测](../results/17/query/predictions.jsonl) · [梯度与差值](../results/17/query/audit.json) |
+| 42 | [预测](../results/42/full/predictions.jsonl) · [梯度与差值](../results/42/full/audit.json) | [预测](../results/42/head/predictions.jsonl) · [梯度与差值](../results/42/head/audit.json) | [预测](../results/42/bitfit/predictions.jsonl) · [梯度与差值](../results/42/bitfit/audit.json) | [预测](../results/42/query/predictions.jsonl) · [梯度与差值](../results/42/query/audit.json) |
+| 73 | [预测](../results/73/full/predictions.jsonl) · [梯度与差值](../results/73/full/audit.json) | [预测](../results/73/head/predictions.jsonl) · [梯度与差值](../results/73/head/audit.json) | [预测](../results/73/bitfit/predictions.jsonl) · [梯度与差值](../results/73/bitfit/audit.json) | [预测](../results/73/query/predictions.jsonl) · [梯度与差值](../results/73/query/audit.json) |
 
 每组检查全部 201 个参数张量。每个冻结张量的首步梯度为空、训练前后逐元素完全一致。BitFit 的 104,450 个可训练参数约占全模型 0.0954%。可训练参数量指进入优化器的元素总数，每个张量实际发生数值变化的元素数另存于审计文件。
 
@@ -44,3 +48,5 @@
 三项必做对照之后的单因素实验为 query 消融，已按相同种子执行。只把预训练部分的可训练集合从全部偏置缩为 12 个 query 偏置张量，其余设置与 BitFit 一致。这一对照测量移除其余偏置的合计影响，无法拆分某一层或某一类被移除偏置的贡献。
 
 全部正式结果来自 RTX 4060 Laptop。昇腾的框架适配途径已查阅，本项目的 NPU 镜像和训练算子仍待实机核验。
+
+[逐次指标及混淆矩阵 CSV](../results/summary.csv) · [独立复核脚本](../verify.py)

@@ -1,0 +1,22 @@
+{
+  "mode": "bitfit",
+  "seed": 73,
+  "accuracy": 0.8578431372549019,
+  "f1": 0.8996539792387543,
+  "epochs": 3,
+  "steps": 1377,
+  "train_examples": 3668,
+  "validation_examples": 408,
+  "lr": 0.001,
+  "batch": 8,
+  "losses": [
+    0.5744401216506958,
+    0.4524449408054352,
+    0.3839806616306305
+  ],
+  "seconds": 49.03514780000114,
+  "peak_allocated_MiB": 1013.67138671875,
+  "trainable": 104450,
+  "total": 109483778,
+  "initial_head_sha256": "5b4c8791a20a78d4eb57f585e09c31033643fd14b9b001426383b27bb1a08fe6"
+}

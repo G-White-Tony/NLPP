@@ -25,3 +25,5 @@ python -s train.py
 ```
 
 单独复核某组可执行 `python -s train.py --mode bitfit --seed 42`。相同配置会覆盖该次结果。results 下按种子和方法保存每轮损失、指标、逐条预测与逐张量审计。predictions.jsonl 的 idx 对应固定验证 ID，p1 是正类概率。audit.json 记录首步梯度范数、初始到训练结束发生变化的元素数和最大绝对差。冻结参数应无梯度、差值为零。
+
+全量运行后执行 `python -s verify.py`，脚本会用原始验证标签重新计算 12 次 F1、Accuracy、混淆矩阵，并检查同种子初始分类头哈希和各参数张量的梯度、实际更新范围。

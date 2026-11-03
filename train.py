@@ -21,7 +21,11 @@ def dataset(split, tokenizer):
     assert len(rows) == {"train":3668, "validation":408}[split]
     ids = [r["idx"] for r in rows]
     assert len(ids) == len(set(ids))
-    write(Path("data") / (split + "_ids.json"), ids)
+    manifest = Path("data") / (split + "_ids.json")
+    if manifest.exists():
+        assert json.loads(manifest.read_text(encoding="utf8")) == ids, split
+    else:
+        write(manifest, ids)
     features = tokenizer([r["sentence1"] for r in rows], [r["sentence2"] for r in rows],
                          max_length=128, truncation=True, padding="max_length", return_tensors="pt")
     features["labels"] = torch.tensor([r["label"] for r in rows])
