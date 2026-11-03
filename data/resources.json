@@ -1,0 +1,26 @@
+[
+  {
+    "file": "bert/config.json",
+    "sha256": "7160e1553ad2ca51d8c1cb066be533db31826e12d173824c1bb0cb1a4f187d20"
+  },
+  {
+    "file": "bert/model.safetensors",
+    "sha256": "68d45e234eb4a928074dfd868cead0219ab85354cc53d20e772753c6bb9169d3"
+  },
+  {
+    "file": "bert/tokenizer_config.json",
+    "sha256": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10"
+  },
+  {
+    "file": "bert/vocab.txt",
+    "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+  },
+  {
+    "file": "train-00000-of-00001.parquet",
+    "sha256": "61fd41301e0e244b0420c4350a170c8e7cf64740335fc875a4af2d79af0df0af"
+  },
+  {
+    "file": "validation-00000-of-00001.parquet",
+    "sha256": "33c007dbf5bfa8463d87a13e6226df8c0fcf2596c2cd39d0f3bb79754e00f50f"
+  }
+]
