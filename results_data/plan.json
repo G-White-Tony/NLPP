@@ -1,0 +1,75 @@
+{
+  "matrix": [
+    {
+      "percent": 25,
+      "budget": "epochs",
+      "mode": "full",
+      "seeds": [
+        17,
+        42,
+        73
+      ]
+    },
+    {
+      "percent": 25,
+      "budget": "epochs",
+      "mode": "bitfit",
+      "seeds": [
+        17,
+        42,
+        73
+      ]
+    },
+    {
+      "percent": 50,
+      "budget": "epochs",
+      "mode": "full",
+      "seeds": [
+        17,
+        42,
+        73
+      ]
+    },
+    {
+      "percent": 50,
+      "budget": "epochs",
+      "mode": "bitfit",
+      "seeds": [
+        17,
+        42,
+        73
+      ]
+    },
+    {
+      "percent": 25,
+      "budget": "steps",
+      "mode": "full",
+      "seeds": [
+        17,
+        42,
+        73
+      ]
+    },
+    {
+      "percent": 25,
+      "budget": "steps",
+      "mode": "bitfit",
+      "seeds": [
+        17,
+        42,
+        73
+      ]
+    }
+  ],
+  "prior_full_data_controls": "results_local/{17,42,73}/{full_lr2e-05,bitfit_lr1e-03}",
+  "subset_sampling_seed": 20261117,
+  "subset_policy": "fixed stratified nested subsets, identical across training seeds and methods",
+  "epochs_budget": 3,
+  "matched_optimizer_steps": 1377,
+  "fixed_learning_rates": {
+    "full": 2e-05,
+    "bitfit": 0.001
+  },
+  "selection": "no tuning, final iterate only; already-observed validation remains exploratory",
+  "gpu_input_cache": "full train+validation cache resident for all sizes, CPU index mapping selects training rows"
+}

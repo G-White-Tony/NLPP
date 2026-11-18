@@ -1,0 +1,1610 @@
+[
+  {
+    "name": "bert.embeddings.word_embeddings.weight",
+    "trainable": false,
+    "numel": 23440896,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.embeddings.position_embeddings.weight",
+    "trainable": false,
+    "numel": 393216,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.embeddings.token_type_embeddings.weight",
+    "trainable": false,
+    "numel": 1536,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.embeddings.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.embeddings.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.attention.self.query.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.attention.self.query.bias",
+    "trainable": true,
+    "numel": 768,
+    "first_grad_norm": 0.00037236750358715653,
+    "changed_elements": 768,
+    "max_abs_delta": 0.16185641288757324
+  },
+  {
+    "name": "bert.encoder.layer.0.attention.self.key.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.attention.self.key.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.attention.self.value.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.attention.self.value.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.attention.output.dense.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.attention.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.attention.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.attention.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.intermediate.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.intermediate.dense.bias",
+    "trainable": true,
+    "numel": 3072,
+    "first_grad_norm": 0.0008988131885416806,
+    "changed_elements": 3072,
+    "max_abs_delta": 0.19050422310829163
+  },
+  {
+    "name": "bert.encoder.layer.0.output.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.0.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.attention.self.query.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.attention.self.query.bias",
+    "trainable": true,
+    "numel": 768,
+    "first_grad_norm": 0.00046436465345323086,
+    "changed_elements": 768,
+    "max_abs_delta": 0.1581162065267563
+  },
+  {
+    "name": "bert.encoder.layer.1.attention.self.key.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.attention.self.key.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.attention.self.value.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.attention.self.value.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.attention.output.dense.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.attention.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.attention.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.attention.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.intermediate.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.intermediate.dense.bias",
+    "trainable": true,
+    "numel": 3072,
+    "first_grad_norm": 0.001151853590272367,
+    "changed_elements": 3072,
+    "max_abs_delta": 0.20206508040428162
+  },
+  {
+    "name": "bert.encoder.layer.1.output.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.1.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.attention.self.query.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.attention.self.query.bias",
+    "trainable": true,
+    "numel": 768,
+    "first_grad_norm": 0.00040076326695270836,
+    "changed_elements": 768,
+    "max_abs_delta": 0.2273869514465332
+  },
+  {
+    "name": "bert.encoder.layer.2.attention.self.key.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.attention.self.key.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.attention.self.value.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.attention.self.value.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.attention.output.dense.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.attention.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.attention.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.attention.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.intermediate.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.intermediate.dense.bias",
+    "trainable": true,
+    "numel": 3072,
+    "first_grad_norm": 0.0015444118762388825,
+    "changed_elements": 3072,
+    "max_abs_delta": 0.19178064167499542
+  },
+  {
+    "name": "bert.encoder.layer.2.output.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.2.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.attention.self.query.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.attention.self.query.bias",
+    "trainable": true,
+    "numel": 768,
+    "first_grad_norm": 0.0006236840272322297,
+    "changed_elements": 768,
+    "max_abs_delta": 0.144977867603302
+  },
+  {
+    "name": "bert.encoder.layer.3.attention.self.key.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.attention.self.key.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.attention.self.value.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.attention.self.value.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.attention.output.dense.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.attention.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.attention.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.attention.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.intermediate.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.intermediate.dense.bias",
+    "trainable": true,
+    "numel": 3072,
+    "first_grad_norm": 0.001415829872712493,
+    "changed_elements": 3072,
+    "max_abs_delta": 0.21479405462741852
+  },
+  {
+    "name": "bert.encoder.layer.3.output.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.3.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.attention.self.query.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.attention.self.query.bias",
+    "trainable": true,
+    "numel": 768,
+    "first_grad_norm": 0.0006978674791753292,
+    "changed_elements": 768,
+    "max_abs_delta": 0.24307259917259216
+  },
+  {
+    "name": "bert.encoder.layer.4.attention.self.key.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.attention.self.key.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.attention.self.value.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.attention.self.value.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.attention.output.dense.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.attention.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.attention.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.attention.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.intermediate.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.intermediate.dense.bias",
+    "trainable": true,
+    "numel": 3072,
+    "first_grad_norm": 0.001289191422984004,
+    "changed_elements": 3072,
+    "max_abs_delta": 0.22688063979148865
+  },
+  {
+    "name": "bert.encoder.layer.4.output.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.4.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.attention.self.query.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.attention.self.query.bias",
+    "trainable": true,
+    "numel": 768,
+    "first_grad_norm": 0.0005077635869383812,
+    "changed_elements": 768,
+    "max_abs_delta": 0.1707421839237213
+  },
+  {
+    "name": "bert.encoder.layer.5.attention.self.key.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.attention.self.key.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.attention.self.value.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.attention.self.value.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.attention.output.dense.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.attention.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.attention.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.attention.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.intermediate.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.intermediate.dense.bias",
+    "trainable": true,
+    "numel": 3072,
+    "first_grad_norm": 0.0012995118740946054,
+    "changed_elements": 3072,
+    "max_abs_delta": 0.19047975540161133
+  },
+  {
+    "name": "bert.encoder.layer.5.output.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.5.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.attention.self.query.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.attention.self.query.bias",
+    "trainable": true,
+    "numel": 768,
+    "first_grad_norm": 0.0005188482464291155,
+    "changed_elements": 768,
+    "max_abs_delta": 0.164058119058609
+  },
+  {
+    "name": "bert.encoder.layer.6.attention.self.key.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.attention.self.key.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.attention.self.value.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.attention.self.value.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.attention.output.dense.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.attention.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.attention.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.attention.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.intermediate.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.intermediate.dense.bias",
+    "trainable": true,
+    "numel": 3072,
+    "first_grad_norm": 0.0016408513765782118,
+    "changed_elements": 3072,
+    "max_abs_delta": 0.21340107917785645
+  },
+  {
+    "name": "bert.encoder.layer.6.output.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.6.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.attention.self.query.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.attention.self.query.bias",
+    "trainable": true,
+    "numel": 768,
+    "first_grad_norm": 0.00040337187238037586,
+    "changed_elements": 768,
+    "max_abs_delta": 0.14934280514717102
+  },
+  {
+    "name": "bert.encoder.layer.7.attention.self.key.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.attention.self.key.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.attention.self.value.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.attention.self.value.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.attention.output.dense.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.attention.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.attention.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.attention.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.intermediate.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.intermediate.dense.bias",
+    "trainable": true,
+    "numel": 3072,
+    "first_grad_norm": 0.0018855090020224452,
+    "changed_elements": 3072,
+    "max_abs_delta": 0.23676396906375885
+  },
+  {
+    "name": "bert.encoder.layer.7.output.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.7.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.attention.self.query.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.attention.self.query.bias",
+    "trainable": true,
+    "numel": 768,
+    "first_grad_norm": 0.0008724911022000015,
+    "changed_elements": 768,
+    "max_abs_delta": 0.2400534749031067
+  },
+  {
+    "name": "bert.encoder.layer.8.attention.self.key.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.attention.self.key.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.attention.self.value.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.attention.self.value.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.attention.output.dense.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.attention.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.attention.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.attention.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.intermediate.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.intermediate.dense.bias",
+    "trainable": true,
+    "numel": 3072,
+    "first_grad_norm": 0.002193387597799301,
+    "changed_elements": 3072,
+    "max_abs_delta": 0.22324353456497192
+  },
+  {
+    "name": "bert.encoder.layer.8.output.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.8.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.attention.self.query.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.attention.self.query.bias",
+    "trainable": true,
+    "numel": 768,
+    "first_grad_norm": 0.0009707704302854836,
+    "changed_elements": 768,
+    "max_abs_delta": 0.19225269556045532
+  },
+  {
+    "name": "bert.encoder.layer.9.attention.self.key.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.attention.self.key.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.attention.self.value.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.attention.self.value.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.attention.output.dense.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.attention.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.attention.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.attention.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.intermediate.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.intermediate.dense.bias",
+    "trainable": true,
+    "numel": 3072,
+    "first_grad_norm": 0.0022728252224624157,
+    "changed_elements": 3072,
+    "max_abs_delta": 0.2573336064815521
+  },
+  {
+    "name": "bert.encoder.layer.9.output.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.9.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.attention.self.query.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.attention.self.query.bias",
+    "trainable": true,
+    "numel": 768,
+    "first_grad_norm": 0.0009344423306174576,
+    "changed_elements": 768,
+    "max_abs_delta": 0.28913530707359314
+  },
+  {
+    "name": "bert.encoder.layer.10.attention.self.key.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.attention.self.key.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.attention.self.value.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.attention.self.value.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.attention.output.dense.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.attention.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.attention.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.attention.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.intermediate.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.intermediate.dense.bias",
+    "trainable": true,
+    "numel": 3072,
+    "first_grad_norm": 0.0022533247247338295,
+    "changed_elements": 3072,
+    "max_abs_delta": 0.2508848011493683
+  },
+  {
+    "name": "bert.encoder.layer.10.output.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.10.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.attention.self.query.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.attention.self.query.bias",
+    "trainable": true,
+    "numel": 768,
+    "first_grad_norm": 0.0009046546765603125,
+    "changed_elements": 768,
+    "max_abs_delta": 0.22846542298793793
+  },
+  {
+    "name": "bert.encoder.layer.11.attention.self.key.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.attention.self.key.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.attention.self.value.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.attention.self.value.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.attention.output.dense.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.attention.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.attention.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.attention.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.intermediate.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.intermediate.dense.bias",
+    "trainable": true,
+    "numel": 3072,
+    "first_grad_norm": 0.0033974316902458668,
+    "changed_elements": 3072,
+    "max_abs_delta": 0.24542106688022614
+  },
+  {
+    "name": "bert.encoder.layer.11.output.dense.weight",
+    "trainable": false,
+    "numel": 2359296,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.output.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.output.LayerNorm.weight",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.encoder.layer.11.output.LayerNorm.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.pooler.dense.weight",
+    "trainable": false,
+    "numel": 589824,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "bert.pooler.dense.bias",
+    "trainable": false,
+    "numel": 768,
+    "first_grad_norm": null,
+    "changed_elements": 0,
+    "max_abs_delta": 0.0
+  },
+  {
+    "name": "classifier.weight",
+    "trainable": true,
+    "numel": 1536,
+    "first_grad_norm": 5.251943111419678,
+    "changed_elements": 1536,
+    "max_abs_delta": 0.06326842308044434
+  },
+  {
+    "name": "classifier.bias",
+    "trainable": true,
+    "numel": 2,
+    "first_grad_norm": 0.19334951043128967,
+    "changed_elements": 2,
+    "max_abs_delta": 0.011988380923867226
+  }
+]

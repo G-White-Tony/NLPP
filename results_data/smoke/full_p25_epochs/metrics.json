@@ -1,0 +1,39 @@
+{
+  "mode": "full",
+  "seed": 17,
+  "accuracy": 0.375,
+  "f1": 0.0,
+  "epochs": 1,
+  "steps": 2,
+  "percent": 25,
+  "budget": "epochs",
+  "subset_sha256": "0b7b47b8f930ac6e386bb520015f1a9086514f4783e849c74aed72a84acffc80",
+  "subset_path": "data\\subsets\\train_25.json",
+  "examples_seen": 16,
+  "epoch_examples": [
+    16
+  ],
+  "training_script_sha256": "e402e05b70ac80784ae6ed0ba762117ba91cf797ef5004168dbb12e0bc3167ff",
+  "train_examples": 16,
+  "validation_examples": 16,
+  "lr": 2e-05,
+  "batch": 8,
+  "losses": [
+    0.7509765625
+  ],
+  "seconds": 0.6657208000106039,
+  "peak_allocated_MiB": 2155.12255859375,
+  "trainable": 109483778,
+  "total": 109483778,
+  "initial_head_sha256": "1bd21c26c01a51a4320971043b5c46af1fa0dc19db59c36d1e16aa4ce230b018",
+  "config_id": "full_p25_epochs",
+  "started_utc": "2026-11-17T15:08:31.341226+00:00",
+  "finished_utc": "2026-11-17T15:08:32.321120+00:00",
+  "attention": "eager",
+  "precision": "bf16_autocast_fp32_parameters",
+  "python": "3.13.5",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.46.0",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "optimizer_group_verified": true
+}

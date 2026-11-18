@@ -1,0 +1,7 @@
+{
+  "source_filename": "NLPP-main.zip",
+  "sha256": "1d2dde0e70230f3c54f70aab507bfe6425a82ff053c1c3f1d8a4de32a8e5efec",
+  "local_changes": "local_changes.diff",
+  "original_results": "results",
+  "new_results": "results_local"
+}

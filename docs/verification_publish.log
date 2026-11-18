@@ -1,0 +1,51 @@
+Verification UTC: 2026-11-18T01:26:01.548744+00:00
+{
+  "verified_runs": 21,
+  "all_resource_hashes_verified": true,
+  "all_predictions_checked_against_source_labels": true,
+  "all_frozen_parameters_unchanged": true,
+  "optimizer_groups_verified_in_training": true,
+  "same_seed_initial_head_hashes_match": true,
+  "total_formal_training_seconds": 848.2183929000021
+}
+bitfit_lr1e-03 F1 {'mean': 88.87870194212314, 'sd': 0.7014169352563308} Accuracy {'mean': 84.15032679738562, 'sd': 1.1052082727507084} positive_rate {'mean': 74.10130718954248, 'sd': 2.3295061159122956}
+full_lr2e-05 F1 {'mean': 90.25654540746964, 'sd': 0.3241634561033246} Accuracy {'mean': 86.19281045751634, 'sd': 0.283014837838057} positive_rate {'mean': 73.36601307189542, 'sd': 1.855852400588321}
+head_lr1e-03 F1 {'mean': 81.04956268221575, 'sd': 0.0} Accuracy {'mean': 68.13725490196079, 'sd': 0.0} positive_rate {'mean': 99.75490196078431, 'sd': 0.0}
+head_lr1e-04 F1 {'mean': 81.22270742358079, 'sd': 0.0} Accuracy {'mean': 68.38235294117648, 'sd': 0.0} positive_rate {'mean': 100.0, 'sd': 0.0}
+head_lr4e-04 F1 {'mean': 81.22270742358079, 'sd': 0.0} Accuracy {'mean': 68.38235294117648, 'sd': 0.0} positive_rate {'mean': 100.0, 'sd': 0.0}
+query_intermediate_lr1e-03 F1 {'mean': 83.34166050927215, 'sd': 0.44932060531474904} Accuracy {'mean': 74.91830065359477, 'sd': 0.6168165388293068} positive_rate {'mean': 82.18954248366013, 'sd': 0.37439343913037815}
+query_lr1e-03 F1 {'mean': 81.12950153140469, 'sd': 0.23640218659938017} Accuracy {'mean': 70.01633986928104, 'sd': 0.1415074189190285} positive_rate {'mean': 90.52287581699346, 'sd': 1.738872275636666}
+{
+  "verified_runs": 18,
+  "nested_stratified_subsets_verified": true,
+  "actual_examples_and_optimizer_steps_verified": true,
+  "same_initialization_and_environment_as_full_data": true,
+  "all_resource_hashes_verified": true,
+  "all_predictions_checked_against_source_labels": true,
+  "all_frozen_parameters_unchanged": true,
+  "optimizer_groups_verified_in_training": true,
+  "same_seed_initial_head_hashes_match": true,
+  "total_formal_training_seconds": 778.0809972998977
+}
+bitfit_p25_epochs F1 {'mean': 84.51483918298581, 'sd': 0.9295964667259495} Accuracy {'mean': 76.47058823529412, 'sd': 1.36464812814461} positive_rate {'mean': 83.57843137254902, 'sd': 0.735294117647058}
+bitfit_p25_steps F1 {'mean': 85.86528485234462, 'sd': 0.8880488754321738} Accuracy {'mean': 79.8202614379085, 'sd': 1.393686446832682} positive_rate {'mean': 74.34640522875817, 'sd': 0.927926200294163}
+bitfit_p50_epochs F1 {'mean': 86.3119619725211, 'sd': 1.3348734411200205} Accuracy {'mean': 79.41176470588235, 'sd': 2.205882352941174} positive_rate {'mean': 81.94444444444444, 'sd': 2.141395820601492}
+full_p25_epochs F1 {'mean': 83.67105156918643, 'sd': 1.4072271868148643} Accuracy {'mean': 75.40849673202615, 'sd': 2.1967858921158037} positive_rate {'mean': 82.18954248366012, 'sd': 0.5102122547711123}
+full_p25_steps F1 {'mean': 84.20128786199456, 'sd': 2.8087067091346003} Accuracy {'mean': 76.30718954248366, 'sd': 4.659012231824599} positive_rate {'mean': 81.29084967320262, 'sd': 3.8075752280166753}
+full_p50_epochs F1 {'mean': 87.71035521656697, 'sd': 0.5531391641785522} Accuracy {'mean': 82.3529411764706, 'sd': 0.8837135479078487} positive_rate {'mean': 75.24509803921569, 'sd': 5.064700568571529}
+{
+  "verified_runs": 9,
+  "equal_parameter_counts_verified": true,
+  "selected_layer_sets_verified": true,
+  "same_initialization_and_environment_as_full_bitfit": true,
+  "all_resource_hashes_verified": true,
+  "all_predictions_checked_against_source_labels": true,
+  "all_frozen_parameters_unchanged": true,
+  "optimizer_groups_verified_in_training": true,
+  "same_seed_initial_head_hashes_match": true,
+  "total_formal_training_seconds": 309.1501814999501
+}
+alternating_lr1e-03 F1 {'mean': 89.28725844896918, 'sd': 1.1321154840027103} Accuracy {'mean': 84.47712418300654, 'sd': 1.839596445947342} positive_rate {'mean': 76.38888888888889, 'sd': 1.8719671956519015}
+bottom_lr1e-03 F1 {'mean': 87.61718428052755, 'sd': 0.9059833921994368} Accuracy {'mean': 81.86274509803921, 'sd': 1.490873169190738} positive_rate {'mean': 78.02287581699346, 'sd': 1.5947076222175771}
+top_lr1e-03 F1 {'mean': 86.20192737130465, 'sd': 0.37742930388694124} Accuracy {'mean': 78.92156862745098, 'sd': 0.49019607843136725} positive_rate {'mean': 84.39542483660131, 'sd': 1.2336330776586135}
+PASS: 48 formal local runs; exact training source hashes, raw predictions, labels and audits verified.

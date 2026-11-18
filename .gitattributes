@@ -1,0 +1,14 @@
+# Preserve executed code and raw evidence exactly; recorded SHA-256 values are byte-sensitive.
+train_local.py -text
+train_data.py -text
+train_layers.py -text
+inspect_layer_graph.py -text
+data/subsets/** -text
+results_local/** -text
+results_data/** -text
+results_layers/** -text
+examples/cases.jsonl -text
+docs/provenance/executed/** -text
+reports/*.pdf -text
+reports/*.docx -text
+visualizations/*.png -text

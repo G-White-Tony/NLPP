@@ -1,0 +1,208 @@
+{
+  "purpose": "single-batch autograd connectivity, outside formal timing; not an operator-level memory profile",
+  "torch": "2.6.0+cu124",
+  "script_sha256": "0df297d83c1db047b844279cbdfef162a9d589c9e318a9ca8a9c80802d193b75",
+  "results": {
+    "bottom": {
+      "batch_size": 8,
+      "seed": 17,
+      "trainable": 52226,
+      "layer_outputs": [
+        {
+          "layer_zero_based": 0,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 1,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 2,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 3,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 4,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 5,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 6,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 7,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 8,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 9,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 10,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 11,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        }
+      ]
+    },
+    "top": {
+      "batch_size": 8,
+      "seed": 17,
+      "trainable": 52226,
+      "layer_outputs": [
+        {
+          "layer_zero_based": 0,
+          "output_requires_grad": false,
+          "output_has_grad_fn": false
+        },
+        {
+          "layer_zero_based": 1,
+          "output_requires_grad": false,
+          "output_has_grad_fn": false
+        },
+        {
+          "layer_zero_based": 2,
+          "output_requires_grad": false,
+          "output_has_grad_fn": false
+        },
+        {
+          "layer_zero_based": 3,
+          "output_requires_grad": false,
+          "output_has_grad_fn": false
+        },
+        {
+          "layer_zero_based": 4,
+          "output_requires_grad": false,
+          "output_has_grad_fn": false
+        },
+        {
+          "layer_zero_based": 5,
+          "output_requires_grad": false,
+          "output_has_grad_fn": false
+        },
+        {
+          "layer_zero_based": 6,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 7,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 8,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 9,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 10,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 11,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        }
+      ]
+    },
+    "alternating": {
+      "batch_size": 8,
+      "seed": 17,
+      "trainable": 52226,
+      "layer_outputs": [
+        {
+          "layer_zero_based": 0,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 1,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 2,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 3,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 4,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 5,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 6,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 7,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 8,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 9,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 10,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        },
+        {
+          "layer_zero_based": 11,
+          "output_requires_grad": true,
+          "output_has_grad_fn": true
+        }
+      ]
+    }
+  }
+}

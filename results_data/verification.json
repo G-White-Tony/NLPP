@@ -1,0 +1,12 @@
+{
+  "verified_runs": 18,
+  "nested_stratified_subsets_verified": true,
+  "actual_examples_and_optimizer_steps_verified": true,
+  "same_initialization_and_environment_as_full_data": true,
+  "all_resource_hashes_verified": true,
+  "all_predictions_checked_against_source_labels": true,
+  "all_frozen_parameters_unchanged": true,
+  "optimizer_groups_verified_in_training": true,
+  "same_seed_initial_head_hashes_match": true,
+  "total_formal_training_seconds": 778.0809972998977
+}

@@ -1,0 +1,10 @@
+{
+  "declared_utc": "2026-11-17T15:09:27.594848+00:00",
+  "python": "3.13.5",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.46.0",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "nvidia_smi": "NVIDIA GeForce RTX 4060 Laptop GPU, 560.94, 8188 MiB",
+  "training_script_sha256": "e402e05b70ac80784ae6ed0ba762117ba91cf797ef5004168dbb12e0bc3167ff",
+  "base_training_script_sha256": "ec8be23d1c84f65d430261c4c2768278f11f9a22f8b6cefc21296d301dc42c48"
+}

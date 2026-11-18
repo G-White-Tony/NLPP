@@ -1,0 +1,41 @@
+{
+  "verified_local_runs": 48,
+  "previous_local": {
+    "verified_runs": 21,
+    "all_resource_hashes_verified": true,
+    "all_predictions_checked_against_source_labels": true,
+    "all_frozen_parameters_unchanged": true,
+    "optimizer_groups_verified_in_training": true,
+    "same_seed_initial_head_hashes_match": true,
+    "total_formal_training_seconds": 848.2183929000021
+  },
+  "new_data_experiments": {
+    "verified_runs": 18,
+    "nested_stratified_subsets_verified": true,
+    "actual_examples_and_optimizer_steps_verified": true,
+    "same_initialization_and_environment_as_full_data": true,
+    "all_resource_hashes_verified": true,
+    "all_predictions_checked_against_source_labels": true,
+    "all_frozen_parameters_unchanged": true,
+    "optimizer_groups_verified_in_training": true,
+    "same_seed_initial_head_hashes_match": true,
+    "total_formal_training_seconds": 778.0809972998977
+  },
+  "new_layer_experiments": {
+    "verified_runs": 9,
+    "equal_parameter_counts_verified": true,
+    "selected_layer_sets_verified": true,
+    "same_initialization_and_environment_as_full_bitfit": true,
+    "all_resource_hashes_verified": true,
+    "all_predictions_checked_against_source_labels": true,
+    "all_frozen_parameters_unchanged": true,
+    "optimizer_groups_verified_in_training": true,
+    "same_seed_initial_head_hashes_match": true,
+    "total_formal_training_seconds": 309.1501814999501
+  },
+  "published_training_files_sha256": {
+    "train_local.py": "ec8be23d1c84f65d430261c4c2768278f11f9a22f8b6cefc21296d301dc42c48",
+    "train_data.py": "e402e05b70ac80784ae6ed0ba762117ba91cf797ef5004168dbb12e0bc3167ff",
+    "train_layers.py": "d263c763fd9f6b4ce63e0ff09dcfa4791618900c04bcc4159434e2c7952bc60d"
+  }
+}

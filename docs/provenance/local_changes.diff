@@ -1,0 +1,74 @@
+--- original/train.py
++++ local/train.py
+@@ -1,4 +1,6 @@
+ import argparse
++import platform
++from datetime import datetime, timezone
+ import hashlib
+ import json
+ import math
+@@ -9,7 +11,7 @@
+ 
+ CACHE = Path(".cache")
+ MODEL = CACHE / "bert"
+-MODES = ("full", "head", "bitfit", "query")
++MODES = ("full", "head", "bitfit", "query", "query_intermediate")
+ SEEDS = (17, 42, 73)
+ BATCH = 8
+ 
+@@ -31,21 +33,28 @@
+     features["labels"] = torch.tensor([r["label"] for r in rows])
+     return rows, {k:v.cuda() for k,v in features.items()}
+ 
+-def run(mode, seed, train, validation, smoke):
+-    dest = Path("results") / ("smoke" if smoke else str(seed)) / mode
++def run(mode, seed, train, validation, smoke, learning_rate=None):
++    lr = learning_rate if learning_rate is not None else (2e-5 if mode == "full" else 1e-3)
++    config_id = mode + "_lr" + format(lr, ".0e")
++    dest = Path("results_local") / ("smoke" if smoke else str(seed)) / config_id
++    if (dest/"metrics.json").exists():
++        print("SKIP completed", seed, config_id, flush=True)
++        return
+     dest.mkdir(parents=True, exist_ok=True)
+     set_seed(seed)
+-    model, info = BertForSequenceClassification.from_pretrained(MODEL, output_loading_info=True)
++    model, info = BertForSequenceClassification.from_pretrained(MODEL, output_loading_info=True, attn_implementation="eager")
+     assert set(info["missing_keys"]) == {"classifier.bias","classifier.weight"}, info
+     initial = {n:p.detach().clone() for n,p in model.named_parameters()}
+     head_hash = hashlib.sha256(initial["classifier.weight"].numpy().tobytes()).hexdigest()
+     model.cuda()
+     for n,p in model.named_parameters():
+-        enabled = mode == "full" or n.startswith("classifier.") or (mode == "bitfit" and n.endswith(".bias")) or (mode == "query" and n.endswith(".attention.self.query.bias"))
++        enabled = mode == "full" or n.startswith("classifier.") or (mode == "bitfit" and n.endswith(".bias")) or (mode == "query" and n.endswith(".attention.self.query.bias")) or (mode == "query_intermediate" and (n.endswith(".attention.self.query.bias") or n.endswith(".intermediate.dense.bias")))
+         p.requires_grad_(enabled)
+     params = [p for p in model.parameters() if p.requires_grad]
+-    lr = 2e-5 if mode == "full" else 1e-3
+     optimizer = torch.optim.AdamW(params, lr=lr, weight_decay=0)
++    assert {id(p) for g in optimizer.param_groups for p in g["params"]} == {id(p) for p in model.parameters() if p.requires_grad}
++    started = datetime.now(timezone.utc).isoformat()
++    print("START", seed, config_id, started, flush=True)
+     rows, features = train
+     size = 16 if smoke else len(rows)
+     epochs = 1 if smoke else 3
+@@ -104,17 +113,19 @@
+     write(dest/"metrics.json", dict(mode=mode,seed=seed,accuracy=acc,f1=f1,epochs=epochs,steps=steps,
+           train_examples=size,validation_examples=len(predictions),lr=lr,batch=BATCH,losses=losses,
+           seconds=seconds,peak_allocated_MiB=peak,trainable=sum(p.numel() for p in params),
+-          total=sum(p.numel() for p in model.parameters()),initial_head_sha256=head_hash))
++          total=sum(p.numel() for p in model.parameters()),initial_head_sha256=head_hash,config_id=config_id,started_utc=started,finished_utc=datetime.now(timezone.utc).isoformat(),attention="eager",precision="bf16_autocast_fp32_parameters",python=platform.python_version(),torch=torch.__version__,transformers=__import__("transformers").__version__,gpu=torch.cuda.get_device_name(),optimizer_group_verified=True))
++    print("DONE", seed, config_id, "f1", f1, "acc", acc, "seconds", seconds, "peak_MiB", peak, flush=True)
+ 
+ if __name__ == "__main__":
+     parser = argparse.ArgumentParser()
+     parser.add_argument("--smoke",action="store_true")
+     parser.add_argument("--seed",type=int, choices=SEEDS)
+     parser.add_argument("--mode",choices=MODES)
++    parser.add_argument("--lr",type=float)
+     args = parser.parse_args()
+     tokenizer = BertTokenizerFast.from_pretrained(MODEL)
+     train = dataset("train",tokenizer)
+     validation = dataset("validation",tokenizer)
+     for seed in ([args.seed] if args.seed else SEEDS[:1] if args.smoke else SEEDS):
+         for mode in ([args.mode] if args.mode else MODES):
+-            run(mode, seed, train, validation, args.smoke)
++            run(mode, seed, train, validation, args.smoke, args.lr)

@@ -1,0 +1,201 @@
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+CONFIG {'percent': 25, 'budget': 'epochs', 'mode': 'full', 'seeds': [17, 42, 73]}
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 17 full_p25_epochs 2026-11-17T15:09:34.117933+00:00
+17 full 1 0.6177263259887695
+17 full 2 0.46477025747299194
+17 full 3 0.28975430130958557
+DONE 17 full_p25_epochs f1 0.8529411764705882 acc 0.7794117647058824 seconds 26.355853799992474 peak_MiB 2155.12939453125
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 42 full_p25_epochs 2026-11-17T15:10:01.556142+00:00
+42 full 1 0.6070832014083862
+42 full 2 0.4419187307357788
+42 full 3 0.25397253036499023
+DONE 42 full_p25_epochs f1 0.827922077922078 acc 0.7401960784313726 seconds 26.134396499983268 peak_MiB 2155.38330078125
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 73 full_p25_epochs 2026-11-17T15:10:28.690603+00:00
+73 full 1 0.6590348482131958
+73 full 2 0.4742978513240814
+73 full 3 0.3012913465499878
+DONE 73 full_p25_epochs f1 0.8292682926829268 acc 0.7426470588235294 seconds 26.063211200002115 peak_MiB 2155.38330078125
+CONFIG {'percent': 25, 'budget': 'epochs', 'mode': 'bitfit', 'seeds': [17, 42, 73]}
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 17 bitfit_p25_epochs 2026-11-17T15:11:02.540923+00:00
+17 bitfit 1 0.6606420278549194
+17 bitfit 2 0.5643143057823181
+17 bitfit 3 0.48584142327308655
+DONE 17 bitfit_p25_epochs f1 0.8548387096774194 acc 0.7794117647058824 seconds 10.303344699990703 peak_MiB 1013.646484375
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 42 bitfit_p25_epochs 2026-11-17T15:11:13.988779+00:00
+42 bitfit 1 0.644411563873291
+42 bitfit 2 0.5680773258209229
+42 bitfit 3 0.48599597811698914
+DONE 42 bitfit_p25_epochs f1 0.8363047001620746 acc 0.7524509803921569 seconds 10.131617000006372 peak_MiB 1013.650390625
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 73 bitfit_p25_epochs 2026-11-17T15:11:25.281832+00:00
+73 bitfit 1 0.6389567255973816
+73 bitfit 2 0.542707085609436
+73 bitfit 3 0.5236773490905762
+DONE 73 bitfit_p25_epochs f1 0.8443017656500803 acc 0.7622549019607843 seconds 9.889100100001087 peak_MiB 1013.650390625
+CONFIG {'percent': 50, 'budget': 'epochs', 'mode': 'full', 'seeds': [17, 42, 73]}
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 17 full_p50_epochs 2026-11-17T15:11:43.405952+00:00
+17 full 1 0.5827308893203735
+17 full 2 0.4268893301486969
+17 full 3 0.2536154091358185
+DONE 17 full_p50_epochs f1 0.8827586206896552 acc 0.8333333333333334 seconds 52.67604699998628 peak_MiB 2155.13623046875
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 42 full_p50_epochs 2026-11-17T15:12:37.214482+00:00
+42 full 1 0.5628125667572021
+42 full 2 0.3165222108364105
+42 full 3 0.15785346925258636
+DONE 42 full_p50_epochs f1 0.8717047451669596 acc 0.821078431372549 seconds 52.221259499987355 peak_MiB 2155.39013671875
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 73 full_p50_epochs 2026-11-17T15:13:30.501673+00:00
+73 full 1 0.6130626201629639
+73 full 2 0.45055028796195984
+73 full 3 0.2944912016391754
+DONE 73 full_p50_epochs f1 0.8768472906403941 acc 0.8161764705882353 seconds 52.14340000000084 peak_MiB 2155.39013671875
+CONFIG {'percent': 50, 'budget': 'epochs', 'mode': 'bitfit', 'seeds': [17, 42, 73]}
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 17 bitfit_p50_epochs 2026-11-17T15:14:30.162972+00:00
+17 bitfit 1 0.6512657999992371
+17 bitfit 2 0.5692655444145203
+17 bitfit 3 0.5021530985832214
+DONE 17 bitfit_p50_epochs f1 0.8507223113964687 acc 0.7720588235294118 seconds 20.411107599997194 peak_MiB 1013.6533203125
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 42 bitfit_p50_epochs 2026-11-17T15:14:51.789165+00:00
+42 bitfit 1 0.6255926489830017
+42 bitfit 2 0.5243875980377197
+42 bitfit 3 0.44059818983078003
+DONE 42 bitfit_p50_epochs f1 0.8613861386138614 acc 0.7941176470588235 seconds 20.000789099984104 peak_MiB 1013.6572265625
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 73 bitfit_p50_epochs 2026-11-17T15:15:12.960221+00:00
+73 bitfit 1 0.6021485328674316
+73 bitfit 2 0.48003289103507996
+73 bitfit 3 0.4061712622642517
+DONE 73 bitfit_p50_epochs f1 0.8772504091653028 acc 0.8161764705882353 seconds 20.83829970000079 peak_MiB 1013.6572265625
+CONFIG {'percent': 25, 'budget': 'steps', 'mode': 'full', 'seeds': [17, 42, 73]}
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 17 full_p25_steps 2026-11-17T15:15:41.806420+00:00
+17 full 1 0.6184819340705872
+17 full 2 0.4707350432872772
+17 full 3 0.2089206427335739
+17 full 4 0.07484136521816254
+17 full 5 0.04395220801234245
+17 full 6 0.01607767678797245
+17 full 7 0.008953086100518703
+17 full 8 0.0024997976142913103
+17 full 9 0.0006063829059712589
+17 full 10 0.00040238347719423473
+17 full 11 0.00035865744575858116
+17 full 12 0.00033412608900107443
+DONE 17 full_p25_steps f1 0.8712871287128713 acc 0.8088235294117647 seconds 104.82792599999812 peak_MiB 2155.12939453125
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 42 full_p25_steps 2026-11-17T15:17:27.716947+00:00
+42 full 1 0.6069761514663696
+42 full 2 0.42895573377609253
+42 full 3 0.20067007839679718
+42 full 4 0.0662333220243454
+42 full 5 0.01640404388308525
+42 full 6 0.0093521848320961
+42 full 7 0.0057520028203725815
+42 full 8 0.0030118890572339296
+42 full 9 0.0017788198310881853
+42 full 10 0.000422968587372452
+42 full 11 0.0003443408932071179
+42 full 12 0.00031352683436125517
+DONE 42 full_p25_steps f1 0.8394648829431438 acc 0.7647058823529411 seconds 104.24267359997611 peak_MiB 2155.38330078125
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 73 full_p25_steps 2026-11-17T15:19:12.995794+00:00
+73 full 1 0.6607691049575806
+73 full 2 0.47625643014907837
+73 full 3 0.23696282505989075
+73 full 4 0.08998630195856094
+73 full 5 0.03543027862906456
+73 full 6 0.012938587926328182
+73 full 7 0.012096804566681385
+73 full 8 0.004638333339244127
+73 full 9 0.002721331315115094
+73 full 10 0.00035167959867976606
+73 full 11 0.0005201721214689314
+73 full 12 0.00031235229107551277
+DONE 73 full_p25_steps f1 0.8152866242038217 acc 0.7156862745098039 seconds 104.34406219999073 peak_MiB 2155.38330078125
+CONFIG {'percent': 25, 'budget': 'steps', 'mode': 'bitfit', 'seeds': [17, 42, 73]}
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 17 bitfit_p25_steps 2026-11-17T15:21:04.930417+00:00
+17 bitfit 1 0.6465541124343872
+17 bitfit 2 0.5804836750030518
+17 bitfit 3 0.5213394165039062
+17 bitfit 4 0.45943015813827515
+17 bitfit 5 0.3783872723579407
+17 bitfit 6 0.36366015672683716
+17 bitfit 7 0.3200429081916809
+17 bitfit 8 0.265901118516922
+17 bitfit 9 0.2590552270412445
+17 bitfit 10 0.19940461218357086
+17 bitfit 11 0.1797790378332138
+17 bitfit 12 0.15884196758270264
+DONE 17 bitfit_p25_steps f1 0.8685121107266436 acc 0.8137254901960784 seconds 44.38874439999927 peak_MiB 1013.646484375
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 42 bitfit_p25_steps 2026-11-17T15:21:50.547728+00:00
+42 bitfit 1 0.642632007598877
+42 bitfit 2 0.6060872077941895
+42 bitfit 3 0.5298429727554321
+42 bitfit 4 0.4428214132785797
+42 bitfit 5 0.40247657895088196
+42 bitfit 6 0.36304694414138794
+42 bitfit 7 0.2821640074253082
+42 bitfit 8 0.27024611830711365
+42 bitfit 9 0.22865045070648193
+42 bitfit 10 0.20272193849086761
+42 bitfit 11 0.1906982809305191
+42 bitfit 12 0.20448915660381317
+DONE 42 bitfit_p25_steps f1 0.8561643835616438 acc 0.7941176470588235 seconds 49.49417799999355 peak_MiB 1013.650390625
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 73 bitfit_p25_steps 2026-11-17T15:22:41.251038+00:00
+73 bitfit 1 0.6461525559425354
+73 bitfit 2 0.5539975762367249
+73 bitfit 3 0.5804685354232788
+73 bitfit 4 0.45096832513809204
+73 bitfit 5 0.4018969237804413
+73 bitfit 6 0.3525325059890747
+73 bitfit 7 0.2922438979148865
+73 bitfit 8 0.2475765198469162
+73 bitfit 9 0.21870729327201843
+73 bitfit 10 0.19860991835594177
+73 bitfit 11 0.17723974585533142
+73 bitfit 12 0.18857237696647644
+DONE 73 bitfit_p25_steps f1 0.8512820512820513 acc 0.7867647058823529 seconds 43.61498690000735 peak_MiB 1013.650390625
+ALL 18 DATA EXPERIMENTS COMPLETED

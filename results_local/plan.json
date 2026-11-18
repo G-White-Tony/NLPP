@@ -1,0 +1,72 @@
+{
+  "experiments": [
+    {
+      "mode": "full",
+      "lr": 2e-05,
+      "seeds": [
+        17,
+        42,
+        73
+      ]
+    },
+    {
+      "mode": "head",
+      "lr": 0.001,
+      "seeds": [
+        17,
+        42,
+        73
+      ]
+    },
+    {
+      "mode": "bitfit",
+      "lr": 0.001,
+      "seeds": [
+        17,
+        42,
+        73
+      ]
+    },
+    {
+      "mode": "query",
+      "lr": 0.001,
+      "seeds": [
+        17,
+        42,
+        73
+      ]
+    },
+    {
+      "mode": "query_intermediate",
+      "lr": 0.001,
+      "seeds": [
+        17,
+        42,
+        73
+      ]
+    },
+    {
+      "mode": "head",
+      "lr": 0.0001,
+      "seeds": [
+        17,
+        42,
+        73
+      ]
+    },
+    {
+      "mode": "head",
+      "lr": 0.0004,
+      "seeds": [
+        17,
+        42,
+        73
+      ]
+    }
+  ],
+  "selection": "no checkpoint or hyperparameter selection; report all settings",
+  "epochs": 3,
+  "batch": 8,
+  "max_length": 128,
+  "attention": "eager"
+}

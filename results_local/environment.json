@@ -1,0 +1,12 @@
+{
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "D:\\miniconda3\\python.exe",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.46.0",
+  "pyarrow": "24.0.0",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "bf16": true,
+  "nvidia_smi": "NVIDIA GeForce RTX 4060 Laptop GPU, 560.94, 8188 MiB",
+  "training_script_sha256": "ec8be23d1c84f65d430261c4c2768278f11f9a22f8b6cefc21296d301dc42c48"
+}

@@ -1,0 +1,171 @@
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+CONFIG {'mode': 'full', 'lr': 2e-05, 'seeds': [17, 42, 73]}
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 17 full_lr2e-05 2026-11-17T14:42:35.489198+00:00
+17 full 1 0.5210050940513611
+17 full 2 0.316720575094223
+17 full 3 0.16269142925739288
+DONE 17 full_lr2e-05 f1 0.900523560209424 acc 0.8602941176470589 seconds 105.03268709999975 peak_MiB 2155.150390625
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 42 full_lr2e-05 2026-11-17T14:44:22.433186+00:00
+42 full 1 0.5250928401947021
+42 full 2 0.32243433594703674
+42 full 3 0.18307624757289886
+DONE 42 full_lr2e-05 f1 0.9008695652173913 acc 0.8602941176470589 seconds 104.40279229999578 peak_MiB 2155.404296875
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 73 full_lr2e-05 2026-11-17T14:46:08.079378+00:00
+73 full 1 0.5384268760681152
+73 full 2 0.34601065516471863
+73 full 3 0.2223207801580429
+DONE 73 full_lr2e-05 f1 0.9063032367972743 acc 0.8651960784313726 seconds 104.3093724999926 peak_MiB 2155.404296875
+CONFIG {'mode': 'head', 'lr': 0.001, 'seeds': [17, 42, 73]}
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 17 head_lr1e-03 2026-11-17T14:48:01.537712+00:00
+17 head 1 0.6846071481704712
+17 head 2 0.662939190864563
+17 head 3 0.630131721496582
+DONE 17 head_lr1e-03 f1 0.8104956268221575 acc 0.6813725490196079 seconds 19.547680399991805 peak_MiB 480.27880859375
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 42 head_lr1e-03 2026-11-17T14:48:22.273560+00:00
+42 head 1 0.670623779296875
+42 head 2 0.6667379140853882
+42 head 3 0.6276403665542603
+DONE 42 head_lr1e-03 f1 0.8104956268221575 acc 0.6813725490196079 seconds 18.81354420000571 peak_MiB 479.03271484375
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 73 head_lr1e-03 2026-11-17T14:48:42.268280+00:00
+73 head 1 0.662272572517395
+73 head 2 0.6508804559707642
+73 head 3 0.6270350813865662
+DONE 73 head_lr1e-03 f1 0.8104956268221575 acc 0.6813725490196079 seconds 19.242617600000813 peak_MiB 479.03271484375
+CONFIG {'mode': 'bitfit', 'lr': 0.001, 'seeds': [17, 42, 73]}
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 17 bitfit_lr1e-03 2026-11-17T14:49:10.057558+00:00
+17 bitfit 1 0.5683612823486328
+17 bitfit 2 0.46195924282073975
+17 bitfit 3 0.3946760296821594
+DONE 17 bitfit_lr1e-03 f1 0.8812392426850258 acc 0.8308823529411765 seconds 42.7725339000026 peak_MiB 1013.66748046875
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 42 bitfit_lr1e-03 2026-11-17T14:49:54.198179+00:00
+42 bitfit 1 0.5881319642066956
+42 bitfit 2 0.46644508838653564
+42 bitfit 3 0.40180468559265137
+DONE 42 bitfit_lr1e-03 f1 0.8900169204737732 acc 0.8406862745098039 seconds 44.48963979999826 peak_MiB 1013.67138671875
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 73 bitfit_lr1e-03 2026-11-17T14:50:39.981861+00:00
+73 bitfit 1 0.5773712992668152
+73 bitfit 2 0.450794517993927
+73 bitfit 3 0.3829094469547272
+DONE 73 bitfit_lr1e-03 f1 0.8951048951048951 acc 0.8529411764705882 seconds 41.70510320000176 peak_MiB 1013.67138671875
+CONFIG {'mode': 'query', 'lr': 0.001, 'seeds': [17, 42, 73]}
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 17 query_lr1e-03 2026-11-17T14:51:30.338494+00:00
+17 query 1 0.6750386953353882
+17 query 2 0.6276938915252686
+17 query 3 0.581509530544281
+DONE 17 query_lr1e-03 f1 0.8098918083462133 acc 0.6985294117647058 seconds 37.57532170000195 peak_MiB 998.05419921875
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 42 query_lr1e-03 2026-11-17T14:52:09.110469+00:00
+42 query 1 0.6646687388420105
+42 query 2 0.6279215812683105
+42 query 3 0.5855488777160645
+DONE 42 query_lr1e-03 f1 0.8140243902439024 acc 0.7009803921568627 seconds 36.747365200004424 peak_MiB 999.05810546875
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 73 query_lr1e-03 2026-11-17T14:52:46.994272+00:00
+73 query 1 0.6538522839546204
+73 query 2 0.6122230887413025
+73 query 3 0.582206666469574
+DONE 73 query_lr1e-03 f1 0.8099688473520249 acc 0.7009803921568627 seconds 36.642841500011855 peak_MiB 999.05810546875
+CONFIG {'mode': 'query_intermediate', 'lr': 0.001, 'seeds': [17, 42, 73]}
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 17 query_intermediate_lr1e-03 2026-11-17T14:53:31.620622+00:00
+17 query_intermediate 1 0.6473764181137085
+17 query_intermediate 2 0.5877041816711426
+17 query_intermediate 3 0.5276445150375366
+DONE 17 query_intermediate_lr1e-03 f1 0.8376623376623377 acc 0.7549019607843137 seconds 38.82515419999254 peak_MiB 998.90576171875
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 42 query_intermediate_lr1e-03 2026-11-17T14:54:11.658705+00:00
+42 query_intermediate 1 0.6376745700836182
+42 query_intermediate 2 0.5594518184661865
+42 query_intermediate 3 0.5297444462776184
+DONE 42 query_intermediate_lr1e-03 f1 0.8338762214983714 acc 0.75 seconds 38.186339699997916 peak_MiB 999.90966796875
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 73 query_intermediate_lr1e-03 2026-11-17T14:54:50.980466+00:00
+73 query_intermediate 1 0.6204968094825745
+73 query_intermediate 2 0.5616554617881775
+73 query_intermediate 3 0.5345809459686279
+DONE 73 query_intermediate_lr1e-03 f1 0.8287112561174551 acc 0.7426470588235294 seconds 37.17644300000393 peak_MiB 999.90966796875
+CONFIG {'mode': 'head', 'lr': 0.0001, 'seeds': [17, 42, 73]}
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 17 head_lr1e-04 2026-11-17T14:55:36.582534+00:00
+17 head 1 0.644775390625
+17 head 2 0.6372948884963989
+17 head 3 0.6361130475997925
+DONE 17 head_lr1e-04 f1 0.8122270742358079 acc 0.6838235294117647 seconds 19.58719160000328 peak_MiB 480.27880859375
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 42 head_lr1e-04 2026-11-17T14:55:57.326815+00:00
+42 head 1 0.6392775177955627
+42 head 2 0.6308255195617676
+42 head 3 0.6334434747695923
+DONE 42 head_lr1e-04 f1 0.8122270742358079 acc 0.6838235294117647 seconds 19.093565600007423 peak_MiB 479.03271484375
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 73 head_lr1e-04 2026-11-17T14:56:17.682050+00:00
+73 head 1 0.6417399644851685
+73 head 2 0.6364277005195618
+73 head 3 0.635425329208374
+DONE 73 head_lr1e-04 f1 0.8122270742358079 acc 0.6838235294117647 seconds 18.745351199992 peak_MiB 479.03271484375
+CONFIG {'mode': 'head', 'lr': 0.0004, 'seeds': [17, 42, 73]}
+D:\miniconda3\Lib\site-packages\transformers\utils\hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 17 head_lr4e-04 2026-11-17T14:56:44.542397+00:00
+17 head 1 0.6573623418807983
+17 head 2 0.6430638432502747
+17 head 3 0.6309839487075806
+DONE 17 head_lr4e-04 f1 0.8122270742358079 acc 0.6838235294117647 seconds 23.6038172999979 peak_MiB 480.27880859375
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 42 head_lr4e-04 2026-11-17T14:57:09.568999+00:00
+42 head 1 0.6498188376426697
+42 head 2 0.6342525482177734
+42 head 3 0.628009557723999
+DONE 42 head_lr4e-04 f1 0.8122270742358079 acc 0.6838235294117647 seconds 20.589661799996975 peak_MiB 479.03271484375
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at .cache\bert and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+START 73 head_lr4e-04 2026-11-17T14:57:31.636489+00:00
+73 head 1 0.647792637348175
+73 head 2 0.6385871767997742
+73 head 3 0.6286226511001587
+DONE 73 head_lr4e-04 f1 0.8122270742358079 acc 0.6838235294117647 seconds 21.129369100002805 peak_MiB 479.03271484375
+ALL 21 RUNS COMPLETED

@@ -1,0 +1,54 @@
+{
+  "declared_utc": "2026-11-17T15:35:50.036346+00:00",
+  "layer_indexing": "zero-based",
+  "matrix": {
+    "bottom": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "top": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "alternating": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ]
+  },
+  "seeds": [
+    17,
+    42,
+    73
+  ],
+  "trainable_per_run": 52226,
+  "encoder_bias_trainable": 50688,
+  "classifier_trainable": 1538,
+  "frozen_common": [
+    "embedding parameters including LayerNorm bias",
+    "pooler weight and bias",
+    "all encoder non-bias parameters"
+  ],
+  "shared": {
+    "train_examples": 3668,
+    "validation_examples": 408,
+    "epochs": 3,
+    "steps": 1377,
+    "batch": 8,
+    "lr": 0.001,
+    "precision": "bf16_autocast_fp32_parameters",
+    "attention": "eager"
+  },
+  "selection": "final epoch, no validation selection; all arms reported; exploratory validation comparison"
+}

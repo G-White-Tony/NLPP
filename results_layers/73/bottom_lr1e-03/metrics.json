@@ -1,0 +1,41 @@
+{
+  "mode": "bottom",
+  "seed": 73,
+  "accuracy": 0.8088235294117647,
+  "f1": 0.8708609271523179,
+  "epochs": 3,
+  "steps": 1377,
+  "train_examples": 3668,
+  "validation_examples": 408,
+  "lr": 0.001,
+  "batch": 8,
+  "losses": [
+    0.5856565237045288,
+    0.5171668529510498,
+    0.4682624340057373
+  ],
+  "seconds": 36.38339520001318,
+  "peak_allocated_MiB": 1007.43603515625,
+  "trainable": 52226,
+  "total": 109483778,
+  "initial_head_sha256": "5b4c8791a20a78d4eb57f585e09c31033643fd14b9b001426383b27bb1a08fe6",
+  "config_id": "bottom_lr1e-03",
+  "selected_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "training_script_sha256": "d263c763fd9f6b4ce63e0ff09dcfa4791618900c04bcc4159434e2c7952bc60d",
+  "started_utc": "2026-11-17T15:37:18.917912+00:00",
+  "finished_utc": "2026-11-17T15:37:56.071736+00:00",
+  "attention": "eager",
+  "precision": "bf16_autocast_fp32_parameters",
+  "python": "3.13.5",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.46.0",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "optimizer_group_verified": true
+}
